@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/main/java/edu/vinaenter/AppConfig.java=UTF-8
+encoding//src/main/java/edu/vinaenter/JdbcConfig.java=UTF-8
+encoding//src/main/java/edu/vinaenter/constants/GlobalConstant.java=UTF-8
+encoding//src/main/java/edu/vinaenter/controller/zayshop/ZayshopController.java=UTF-8
+encoding//src/main/java/edu/vinaenter/util/FileUtil.java=UTF-8
+encoding//src/main/resources/jdbc/database.properties=UTF-8
+encoding//src/main/resources/messages/messages.properties=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/components/admin/footer.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/templates/admin_template.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/templates/zayshop_template.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/views/error/403.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/views/zayshop/index.jsp=UTF-8
