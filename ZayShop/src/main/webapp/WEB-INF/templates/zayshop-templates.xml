@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+       
+<tiles-definitions>
+  <definition name="zayshop.template" template="/WEB-INF/jsp/templates/zayshop_template.jsp">
+    <put-attribute name="header" value="/WEB-INF/jsp/components/zayshop/header.jsp" />
+    <put-attribute name="content" value="" />
+    <put-attribute name="footer" value="/WEB-INF/jsp/components/zayshop/footer.jsp" />
+  </definition>
+  
+  <definition name="zayshop.index" extends="zayshop.template">
+    <put-attribute name="content" value="/WEB-INF/jsp/views/zayshop/index.jsp" />
+  </definition>
+ 
+   <definition name="zayshop.shop" extends="zayshop.template">
+    <put-attribute name="content" value="/WEB-INF/jsp/views/zayshop/shop.jsp" />
+  </definition>
+  
+   <definition name="zayshop.detail" extends="zayshop.template">
+    <put-attribute name="content" value="/WEB-INF/jsp/views/zayshop/detail.jsp" />
+  </definition>
+  
+   <definition name="zayshop.contact" extends="zayshop.template">
+    <put-attribute name="content" value="/WEB-INF/jsp/views/zayshop/contact.jsp" />
+  </definition>
+  
+  <definition name="zayshop.about" extends="zayshop.template">
+    <put-attribute name="content" value="/WEB-INF/jsp/views/zayshop/about.jsp" />
+  </definition>
+ 
+</tiles-definitions>
